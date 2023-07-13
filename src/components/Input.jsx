@@ -8,7 +8,7 @@ function Input({ setName }) {
 
   return (
     <div>
-        <input type="text" placeholder='Enter pokemon name' />
+        <input type="text" placeholder='Enter pokemon name'/>
         <button onClick={handleClick}>Catch!</button>
     </div>
   )

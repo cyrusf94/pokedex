@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import './App.css'
 import Input from './components/Input'
 import Pokedex from './components/Pokedex'
+import './App.css'
 
 function App() {
 
-  const [name, setName] = useState("")
+  const [ name, setName ] = useState("")
 
   return (
     <>
-    <Input setName={setName}/>
+    <Input setName={setName} />
+    {console.log(name)}
     <Pokedex name={name} />
     </>
   )
